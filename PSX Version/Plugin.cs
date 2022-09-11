@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace SusKull
 {
-    [BepInPlugin("Radsi", "SusKull", "1.0.0")]
+    [BepInPlugin("radsi.suskull", "SusKull", "1.0.0")]
     public class Plugin : BaseUnityPlugin
     {
         public static Dictionary<string, GameObject> allAmongus = new Dictionary<string, GameObject>();
